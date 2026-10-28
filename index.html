@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svetoart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Фоновое видео -->
+    <video autoplay loop muted playsinline class="bg-video">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div class="container header-inner">
+            <a href="#" class="logo">Svetoart</a>
+            <nav>
+                <a href="#about">Обо мне</a>
+                <a href="#portfolio">Портфолио</a>
+                <a href="#process">Процесс</a>
+                <a href="#pricing">Услуги</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <a href="tel:+79999999999" class="phone">+7 (999) 999-99-99</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Фотосессия, на которой вы забудете о камере</h1>
+                <p class="lead">Вы когда-нибудь смотрели на свои фотографии и думали: «ну почему я тут такая зажатая?»
+                    Знакомо. На съёмке со мной этого не будет — потому что я не заставляю позировать. Я помогаю вам быть
+                    собой, а камера просто фиксирует момент.</p>
+                <ul class="hero-list">
+                    <li>Работаю с женщинами, которые никогда не снимались</li>
+                    <li>Помогаю с образом, локацией и настроением</li>
+                    <li>Снимаю в Гатчине и Санкт-Петербурге — на природе и в студии</li>
+                    <li>Отдаю готовые фото за 14 дней, всегда на связи</li>
+                </ul>
+                <a href="#contacts" class="btn">Записаться на фотосессию</a>
+                <p class="hero-note">Свободные даты на этот месяц — уточняйте в Telegram</p>
+            </div>
+            <div class="hero-image">
+                <img src="Images/image1.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-beige">
+        <div class="container">
+            <h2 class="section-title">Этот сайт для вас, если…</h2>
+            <p class="section-lead">Проверьте — узнаёте себя хотя бы в одном пункте?</p>
+
+            <div class="cols-2">
+                <div class="card">
+                    <h3>Вы хотите, но боитесь</h3>
+                    <ul class="card-list">
+                        <li>Никогда не были на профессиональной съёмке</li>
+                        <li>Стесняетесь камеры и не знаете, как себя вести</li>
+                        <li>Боитесь, что получится «некрасиво» или «не как у всех»</li>
+                        <li>Не уверены, что сможете расслабиться перед объективом</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Вы хотите красивых фото</h3>
+                    <ul class="card-list">
+                        <li>Давно мечтаете о съёмке, но всё откладываете</li>
+                        <li>Хотите сохранить важный момент — день рождения, беременность, просто себя</li>
+                        <li>Устали от селфи и хотите живые, тёплые кадры</li>
+                        <li>Ищете фотографа, с которым будет спокойно и легко</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container two-cols">
+            <div class="about-image">
+                <img src="Images/image1.png">
+            </div>
+            <div class="about-text">
+                <h2>Светлана Евгеньевна</h2>
+                <p>Фотограф из Гатчины. Живу и работаю в родном городе и Санкт-Петербурге. Мой подход — это не просто
+                    нажатие кнопки, а создание атмосферы, в которой вы сможете быть собой.</p>
+                <p>Я начала свой путь в фотографии 5 лет назад. За это время я провела более 100 съёмок с женщинами,
+                    которые никогда не снимались. И знаете что? Почти все они в начале говорили: «я не умею позировать».
+                    А через час — смеялись и забывали про камеру.</p>
+                <p>Мне важно, чтобы вы ушли со съёмки с лёгкостью, а не с усталостью. Чтобы через год вы открывали
+                    альбом и снова чувствовали тот самый день.</p>
+                <div class="signature">Svetlana</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Почему со мной спокойно</h2>
+            <p class="section-lead">Даже если вы никогда не были на фотосессии — я проведу вас за руку на каждом этапе.
+            </p>
+
+            <div class="features-grid">
+                <div class="feature">
+                    <span class="feature-num">01</span>
+                    <h3>Нет опыта съёмок</h3>
+                    <p>Проведу по всем этапам. Объясню, как встать, куда смотреть, что делать с руками. Всё покажу на
+                        своём примере.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-num">02</span>
+                    <h3>Не знаете, что надеть</h3>
+                    <p>Помогу собрать образ. Подберу по цветам, фактурам и аксессуарам — с учётом вашей фигуры и
+                        локации.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-num">03</span>
+                    <h3>Стесняетесь камеры</h3>
+                    <p>Первые 10 минут — знакомство и разговор. Дальше вы перестанете замечать камеру. Проверено на 100
+                        съёмках.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-num">04</span>
+                    <h3>Хотите живые фото</h3>
+                    <p>Никаких натянутых поз. Только естественные эмоции, движение и свет — так, как вы живёте на самом
+                        деле.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-num">05</span>
+                    <h3>Любите природу</h3>
+                    <p>Снимаю в парках, у воды, в лесу. Использую естественный свет. Лучшее время — утро или вечер на
+                        закате.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-num">06</span>
+                    <h3>Хотите студию</h3>
+                    <p>Работаю в светлых пространствах Санкт-Петербурга с панорамными окнами. Мягкий свет и уютная
+                        атмосфера.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="bg-beige">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <p class="section-lead">Живые, светлые и естественные кадры. Каждая съёмка — отдельная история.</p>
+
+            <div class="portfolio-grid">
+                <img class="p-1" src="Images/image1.png">
+                <img class="p-2" src="Images/image1.png">
+                <img class="p-3" src="Images/image1.png">
+                <img class="p-4" src="Images/image1.png">
+                <img class="p-5" src="Images/image1.png">
+                <img class="p-6" src="Images/image1.png">
+                <img class="p-7" src="Images/image1.png">
+                <img class="p-8" src="Images/image1.png">
+                <img class="p-9" src="Images/image1.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="container">
+            <h2 class="section-title">Как проходит работа</h2>
+            <p class="section-lead">От первого сообщения до готовых фото — четыре простых шага.</p>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="process-num">01</div>
+                    <h3>Заявка</h3>
+                    <p>Вы пишете мне в Telegram или оставляете заявку на сайте. Отвечаю в течение часа, даже в выходные.
+                    </p>
+                </div>
+                <div class="process-step">
+                    <div class="process-num">02</div>
+                    <h3>Обсуждение</h3>
+                    <p>Созваниваемся или переписываемся. Обсуждаем формат, локацию и образ. Я предлагаю варианты под ваш
+                        запрос.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-num">03</div>
+                    <h3>Съёмка</h3>
+                    <p>Встречаемся на локации. Работаем спокойно, без спешки. Я подсказываю, вы расслабляетесь — и
+                        получаются живые кадры.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-num">04</div>
+                    <h3>Готовые фото</h3>
+                    <p>Через 14 дней вы получаете обработанные фотографии в облаке. Плюс — доступ к исходникам на
+                        память.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Форматы и стоимость</h2>
+            <p class="section-lead">Все цены финальные, без доплат. Что указано — то и получите.</p>
+
+            <div class="pricing-grid">
+                <div class="card price-card">
+                    <h3>Прогулочная</h3>
+                    <div class="price">7 000 ₽</div>
+                    <ul>
+                        <li>Длительность — 1 час</li>
+                        <li>Локация — парк или улицы</li>
+                        <li>15 обработанных фото</li>
+                        <li>Помощь с образом</li>
+                    </ul>
+                    <a href="#contacts" class="btn">Выбрать</a>
+                </div>
+                <div class="card price-card">
+                    <h3>Студийная</h3>
+                    <div class="price">12 000 ₽</div>
+                    <ul>
+                        <li>Длительность — 1.5 часа</li>
+                        <li>Локация — светлая студия</li>
+                        <li>25 обработанных фото</li>
+                        <li>Помощь с образом</li>
+                    </ul>
+                    <a href="#contacts" class="btn">Выбрать</a>
+                </div>
+                <div class="card price-card">
+                    <h3>Всё включено</h3>
+                    <div class="price">18 000 ₽</div>
+                    <ul>
+                        <li>Длительность — 2 часа</li>
+                        <li>Локация — студия и природа</li>
+                        <li>40 обработанных фото</li>
+                        <li>Помощь с образом и визажем</li>
+                    </ul>
+                    <a href="#contacts" class="btn">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guarantees bg-beige">
+        <div class="container">
+            <h2 class="section-title">Гарантии</h2>
+            <p class="section-lead">Три вещи, которые делают работу со мной простой и безопасной.</p>
+
+            <div class="guarantees-grid">
+                <div class="guarantee">
+                    <div class="guarantee-icon">01</div>
+                    <h3>Фиксированная цена</h3>
+                    <p>Стоимость не меняется после записи. Все условия обсуждаем заранее и прописываем в переписке.</p>
+                </div>
+                <div class="guarantee">
+                    <div class="guarantee-icon">02</div>
+                    <h3>Возврат предоплаты</h3>
+                    <p>Если планы изменились за 3 дня до съёмки — верну предоплату в полном объёме, без вопросов.</p>
+                </div>
+                <div class="guarantee">
+                    <div class="guarantee-icon">03</div>
+                    <h3>Доработка фото</h3>
+                    <p>Если что-то в обработке не понравилось — доработаю кадры в течение недели бесплатно.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <p class="section-lead">Что говорят те, кто уже побывал на съёмке.</p>
+
+            <div class="reviews-grid">
+                <div class="card review">
+                    <p class="review-text">«Я очень стеснялась камеры и думала, что получится неловко. Но Светлана так
+                        легко всё объясняла, что уже через 15 минут я забыла, что меня снимают.»</p>
+                    <div class="review-author">
+                        <img src="Images/image1.png" class="review-avatar">
+                        <div>
+                            <h4>Юля</h4>
+                            <span>Прогулочная съёмка</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card review">
+                    <p class="review-text">«Первый раз в студии, боялась, что буду выглядеть нелепо. Светлана помогла с
+                        образом, подсказывала позы, шутила.»</p>
+                    <div class="review-author">
+                        <img src="Images/image1.png" class="review-avatar">
+                        <div>
+                            <h4>Елена</h4>
+                            <span>Студийная съёмка</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card review">
+                    <p class="review-text">«Очень красивые живые фото. Светлана — не просто фотограф, а человек, который
+                        создаёт настроение.»</p>
+                    <div class="review-author">
+                        <img src="Images/image1.png" class="review-avatar">
+                        <div>
+                            <h4>Анастасия</h4>
+                            <span>Love Story</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-beige">
+        <div class="container">
+            <h2 class="section-title">Частые вопросы</h2>
+            <p class="section-lead">Отвечаю заранее — чтобы вам было спокойнее.</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Я никогда не снималась. Это проблема?</h3>
+                    <p>Нет. Большинство моих клиенток — как раз те, кто впервые на съёмке. Я всё покажу и подскажу.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Что если я не умею позировать?</h3>
+                    <p>И не нужно. Мы будем гулять и разговаривать, а я буду ловить живые моменты.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Как выбрать образ?</h3>
+                    <p>После записи я пришлю подборку с примерами — по цветам и фасонам.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Когда будут готовы фото?</h3>
+                    <p>Через 14 дней после съёмки. Если нужно срочно — есть ускоренная обработка.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container two-cols">
+            <div class="contacts-info">
+                <h2>Запишитесь на фотосессию</h2>
+                <p class="lead">Напишите мне удобным способом — отвечу в течение часа.</p>
+                <div class="contact-item">
+                    <span class="label">Телефон</span>
+                    <a href="tel:+79999999999" class="value">+7 (999) 999-99-99</a>
+                </div>
+                <div class="contact-item">
+                    <span class="label">Telegram</span>
+                    <a href="#" class="value">@sveta_photo</a>
+                </div>
+                <div class="contact-item">
+                    <span class="label">Email</span>
+                    <a href="mailto:svetart@yandex.ru" class="value">svetart@yandex.ru</a>
+                </div>
+            </div>
+
+            <div class="card contact-form">
+                <h3>Оставьте заявку</h3>
+                <form>
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="tel" placeholder="Телефон">
+                    <textarea rows="3" placeholder="Комментарий"></textarea>
+                    <button type="submit" class="btn">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Svetoart. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
